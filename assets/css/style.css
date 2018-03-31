@@ -1,0 +1,171 @@
+.headerMaster {
+    width: 99%;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #808000;
+    font-size: 38pt;
+    font-family: 'Anton', sans-serif;
+    color: #808000;
+    margin: 20px 0 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 10px white;
+}
+
+.btn, .btn-default {
+    background-color: #808000;
+    color: white;
+}
+
+#submitPress {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.btn:hover, .btn-default:hover {
+    background-color: #808000;
+    color: white;
+    background-color: black;
+}
+
+a:visited, a:active, a:link {
+    background-color: #808000;
+    color: white;
+}
+
+#submitPress:hover {
+    color: white;
+    letter-spacing: 1px;
+    background-color: black;
+}
+
+#input {
+    color: white;
+    letter-spacing: 1px;
+}
+
+#user-input {
+    margin: 10px 0 0 0;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40pt;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
+}
+
+input {
+    margin-bottom: 10px 0 0 0;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
+    padding: 10px 0 0 0;
+}
+
+form {
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    padding: 10px 0 0 0;
+}
+
+.bodyWidth {
+    width: 50%;
+    margin: auto;
+}
+
+button, div, form, input {
+	margin: 5px;
+}
+
+img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.userInput {
+    font-size: 14pt;
+    color: white; 
+    padding: 0 0 0 0;
+}
+
+label {
+    color: #fff;
+}
+
+.btn-default {
+    color: #000;
+    font-size: medium;
+    margin: 0 0 5px 10px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+body {
+    background-color: #808000;
+    background-image: url("../images/rockbackground3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 75px;
+
+}
+
+.holder {
+    float: left;
+}
+
+
+#display-images {
+    color: white;
+}
+
+@media screen and (max-width: 771px) and (min-width: 0px) {
+.container {
+    width: 450px;
+}
+
+.headerMaster {
+    width: 99%;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #808000;
+    font-size: 20pt;
+    font-family: 'Anton', sans-serif;
+    color: #808000;
+    margin: 20px 0 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+body {
+    background-color: #7f7f7f;
+    background-image: url("../images/rockbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 65px;
+    background-size: 100%;
+}
+
+#display-images {
+    width: 100%;
+}
+
+
+}
+
+
