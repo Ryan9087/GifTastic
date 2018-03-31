@@ -13,6 +13,17 @@
     text-shadow: 1px 1px 10px white;
 }
 
+h4 {
+    font-size: 13pt;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+}
+
+br {
+    display: none;
+}
+
 .btn, .btn-default {
     background-color: #808000;
     color: white;
@@ -69,6 +80,8 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-size: 20pt;
     padding: 10px 0 0 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 form {
@@ -117,7 +130,7 @@ body {
     background-image: url("../images/rockbackground3.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0px 75px;
+    background-position: 0px 90px;
 
 }
 
@@ -130,8 +143,29 @@ body {
     font-size: 11pt;
 }
 
+@media screen and (max-width: 991px) and (min-width: 772px) {
+
+br {
+    display: inline-block;
+}
+
+body {
+    background-color: #808000;
+    background-image: url("../images/rockbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 180px;
+    background-size: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+}
+
 
 @media screen and (max-width: 771px) and (min-width: 0px) {
+
+br {
+    display: inline-block;
+}
 
 .container {
     width: 450px;
@@ -139,7 +173,7 @@ body {
 
 .headerMaster {
     width: 99%;
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .8);
     padding: 0px 10px 5px 10px;
     text-align: center;
     border-radius: 10px;
@@ -151,20 +185,33 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-h1 {
-    font-size: 24pt;
+h4 {
+    font-size: 11pt;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
-    background-color: #7f7f7f;
+    background-color: #808000;
     background-image: url("../images/rockbackground.jpg");
     background-repeat: no-repeat;
-    background-position: 0px 65px;
+    background-position: 0px 168px;
     background-size: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: 14pt;
+    font-family: 'Lato', sans-serif;
 }
 
 #display-images {
     width: 100%;
+}
+
+h1 {
+    font-size: 28pt;
 }
 
 }
